@@ -1,0 +1,16 @@
+ignoreList:
+  - shexec
+  - vt100
+  - apikey
+  - claude-3-opus-20240229
+
+excludePatterns:
+  - \b[0-9a-fA-F]{6}\b
+  - \bhttps?:\/\/[^\s]+\b
+  - ^[a-z]+(\.[a-z]+)+$
+
+excludeFiles:
+  - Package.swift
+
+excludeDirectories:
+  - .build
