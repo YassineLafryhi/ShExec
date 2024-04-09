@@ -23,7 +23,7 @@ sudo chmod +x /usr/local/bin/shexec
 ### For Linux (x86_64) :
 ```bash
 cd ~/Downloads
-wget https://github.com/YassineLafryhi/Swiftsonver/releases/download/1.0.0/ShExec-1.0.0-linux-x86_64.zip
+wget https://github.com/YassineLafryhi/ShExec/releases/download/1.0.0/ShExec-1.0.0-linux-x86_64.zip
 unzip ShExec-1.0.0-linux-x86_64.zip
 sudo mkdir -p /usr/local/bin
 sudo mv shexec /usr/local/bin/shexec
