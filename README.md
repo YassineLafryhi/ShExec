@@ -20,11 +20,11 @@ sudo mv shexec /usr/local/bin/shexec
 sudo chmod +x /usr/local/bin/shexec
 ```
 
-### For Linux (Arm64) :
+### For Linux (x86_64) :
 ```bash
 cd ~/Downloads
-wget https://github.com/YassineLafryhi/Swiftsonver/releases/download/1.0.0/ShExec-1.0.0-linux-aarch64.zip
-unzip ShExec-1.0.0-linux-aarch64.zip
+wget https://github.com/YassineLafryhi/Swiftsonver/releases/download/1.0.0/ShExec-1.0.0-linux-x86_64.zip
+unzip ShExec-1.0.0-linux-x86_64.zip
 sudo mkdir -p /usr/local/bin
 sudo mv shexec /usr/local/bin/shexec
 sudo chmod +x /usr/local/bin/shexec
@@ -33,7 +33,7 @@ sudo chmod +x /usr/local/bin/shexec
 ## Usage Instructions
 
 > [!NOTE]
-> Currently, `ShExec` uses the following model: `Gemini 1.0 Pro`, `Claude-3-opus-20240229` and `llama2` via Ollama (https://github.com/ollama/ollama), other models will be supported very soon !
+> Currently, `ShExec` uses the following models: `Gemini 1.0 Pro`, `Claude-3-opus-20240229` and `llama2` via Ollama (https://github.com/ollama/ollama), other models will be supported very soon !
 
 To use the `shexec`, ensure you have a valid API KEY of the model you want to use (or Ollama installed if you prefer to work locally), then initiate the command alongside a textual description of your intended task. For example:
 
